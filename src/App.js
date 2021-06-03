@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import logo from './logo.svg';
 import Home from './components/pages/Home.js';
-import './App.css';
-
+// import './App.css';
 import './css/forms_style.css';
 
 class App extends Component {
