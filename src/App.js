@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import Home from './components/pages/Home.js';
 import './App.css';
 
+import './css/forms_style.css';
+
 class App extends Component {
   render() {
   return (
