@@ -1,14 +1,3 @@
-// import React,{Fragment} from 'react';
-//
-// const Home=()=>(
-//   <Fragment>
-//     <div className="row my-3">
-//         <p>Lets remember Javascripts</p>
-//     </div>
-//   </Fragment>
-// )
-// export default Home;
-
 import React,{Fragment, Component} from 'react';
 import {Link} from 'react-router-dom';
 import Request from '../../helper/Request.js'
@@ -17,7 +6,7 @@ import {url} from '../../helper/AWSRoute.js';
 import CustomerList from '../bits/CustomerList.js';
 
 
-class Home extends Component{
+class ExistingCustomers extends Component{
 
 constructor(props){
   super(props);
@@ -35,7 +24,7 @@ componentDidMount(){
   return (<Fragment>
     <div className="content-block">
       <div className="row">
-        <h4>Existing customers</h4>
+        <h4>Existing Customers</h4>
       </div>
       <form>
         <div className="form-group row">
@@ -51,21 +40,21 @@ componentDidMount(){
 
     <div className="row">
       <div className="col-sm-3">
-        <div className="column-head">Priority customers</div>
+        <div className="column-head">Priority Customers</div>
         <div className="column-body">
 
         </div>
       </div>
 
       <div className="col-sm-3">
-        <div className="column-head">Standard customers</div>
+        <div className="column-head">Standard Customers</div>
         <div className="column-body">
 
         </div>
       </div>
 
       <div className="col-sm-3">
-        <div className="column-head">Unassigned customers</div>
+        <div className="column-head">Unassigned Customers</div>
         <div className="column-body">
 
           {
@@ -83,4 +72,4 @@ componentDidMount(){
 
   )};
 }
-export default Home;
+export default ExistingCustomers;
