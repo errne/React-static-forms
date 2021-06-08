@@ -14,7 +14,7 @@ class EditCustomerContainer extends Component{
 
   componentDidMount(){
     let request = new Request();
-    request.get(`${url}${this.props.id}`).then((data) => {
+    request.get(`${url}/${this.props.id}`).then((data) => {
       this.setState({customer: data});
     });
 
