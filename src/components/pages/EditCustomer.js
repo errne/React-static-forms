@@ -25,7 +25,7 @@ const EditCustomer = (props)=>{
       "mailing":event.target.mailing.value,
     }
 
-     props.handleCustomerPut(customer);
+     props.handleCustomerPatch(customer);
   }
 
   function onDelete() {
@@ -81,7 +81,7 @@ const EditCustomer = (props)=>{
             </div>
 
             <div className="form-group row">
-              <label htmlFor="gp" className="col-sm-2 col-form-label">Birthplace</label>
+              <label htmlFor="bp" className="col-sm-2 col-form-label">Birthplace</label>
               <div className="col-sm-9">
                 <input type="text" id="bp" name="bp" className="form-control"  placeholder="Birthplace" defaultValue={props.customer.bp} />
               </div>

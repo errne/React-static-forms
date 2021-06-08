@@ -11,8 +11,8 @@
         </div>
         <div className="row">
           <div className="col-sm-12 btn-group">
-            <Link to={"/details/"+ props.customer.id} className="btn btn-lg btn-info disabled float-right">customer Details</Link>
-            <Link to={"/edit/"+ props.customer.id} className="btn btn-lg btn-info float-right">Edit customer</Link>
+            <Link to={"/details/"+ props.customer.id} className="btn btn-lg btn-info disabled float-right">Customer Details</Link>
+            <Link to={"/edit/"+ props.customer.id} className="btn btn-lg btn-info float-right">Edit Customer</Link>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
         <div className="row">
           <div className="col-sm-12">
           <p> Date of Birth: {props.customer.dob} </p>
-          <p> Place of Birth: {props.customer.bp} </p>
+          <p> Birthplace: {props.customer.bp} </p>
           <p>email: {props.customer.email} </p>
           <p>phone: {props.customer.phone} </p>
           <p>address: {props.customer.address.address1} {props.customer.address.address2}<br/>
