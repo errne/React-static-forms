@@ -22,7 +22,7 @@ const NewCustomer = (props)=>{
       "phone":event.target.phone.value,
       "email":event.target.email.value,
       "employment":event.target.employment.value,
-      "mailing":event.target.mailing.value,
+      "mailing":event.target.mailing.checked,
 
     }
     props.handleCustomerPost(client);
