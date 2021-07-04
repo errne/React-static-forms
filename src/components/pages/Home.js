@@ -12,10 +12,9 @@
 import React,{Fragment, Component} from 'react';
 import {Link} from 'react-router-dom';
 import Request from '../../helper/Request.js'
-import {url} from '../../helper/AWSRoute.js';
 
 import CustomerList from '../bits/CustomerList.js';
-
+let url = process.env.AWSURL;
 
 class Home extends Component{
 
