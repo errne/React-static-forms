@@ -13,7 +13,6 @@ import React,{Fragment, Component} from 'react';
 import {Link} from 'react-router-dom';
 import Request from '../../helper/Request.js'
 import {url} from '../../helper/AWSRoute.js';
-// let url2 = process.env.AWSURL
 
 import CustomerList from '../bits/CustomerList.js';
 
