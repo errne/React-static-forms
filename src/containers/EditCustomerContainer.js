@@ -9,7 +9,6 @@ class EditCustomerContainer extends Component{
     this.state = {customer: null };
     this.handleCustomerDelete = this.handleCustomerDelete.bind(this);
     this.handleCustomerPatch = this.handleCustomerPatch.bind(this);
-    // this.handleCustomerPut = this.handleCustomerPut.bind(this);
   }
 
   componentDidMount(){
