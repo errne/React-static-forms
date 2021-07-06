@@ -1,20 +1,9 @@
-// import React,{Fragment} from 'react';
-//
-// const Home=()=>(
-//   <Fragment>
-//     <div className="row my-3">
-//         <p>Lets remember Javascripts</p>
-//     </div>
-//   </Fragment>
-// )
-// export default Home;
-
 import React,{Fragment, Component} from 'react';
 import {Link} from 'react-router-dom';
 import Request from '../../helper/Request.js'
 
 import CustomerList from '../bits/CustomerList.js';
-let url = process.env.AWSURL;
+import {url} from '../../helper/AWSRoute.js';
 
 class Home extends Component{
 
